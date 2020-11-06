@@ -1,3 +1,25 @@
+body{
+  background-color: whitesmoke;
+}
+
+.card-body{
+  margin: 20px;
+  color: #17a2b8;
+  box-shadow: 3px 2px 30px #888888;
+}
+
+.deleteBtn{
+  background-color: #ff4b5c;
+  color: whitesmoke;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px wheat inset;
+}
+
+.deleteBtn:hover{
+  opacity: 0.8;
+  color: whitesmoke;
+}
+
 .error-message {
   color: red;
   text-align: center;
@@ -8,6 +30,22 @@
   color: whitesmoke;
   padding: 5px;
   border-radius: 10px;
+}
+
+.topHeader{
+  background-color: #e6e6e6;
+  margin-bottom: 2rem;
+  color: #17a2b8;
+  border-radius: 15px;
+}
+
+label{
+  margin-left: 30%
+}
+
+.form-control{
+  width: 40%;
+  margin: auto;
 }
 
 .form-control:invalid:not(:focus):not(:placeholder-shown) {

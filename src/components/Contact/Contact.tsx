@@ -15,7 +15,7 @@ const Contact = ({ index, name, phone, dateCreated }: contactPropTypes) => {
                         <h6 className="card-subtitle mb-2 text-muted">Phone: {phone}</h6>
                         {dateCreated && <p className="card-text">Create at: {dateCreated}</p>}
                   </div>
-                  <button type="button" data-toggle="modal" data-target={`#exampleModal${index}`} className="btn btn-danger">Delete</button>
+                  <button type="button" data-toggle="modal" data-target={`#exampleModal${index}`} className="btn deleteBtn">Delete</button>
             </div>
       );
 }

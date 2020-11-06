@@ -30,8 +30,8 @@ const Contacts = () => {
       }
       return (
             <>
-                  <div className='row d-flex justify-content-between align-items-center p-2'>
-                        <p className="h2 text-center">My Contacts</p>
+                  <div className='row d-flex justify-content-between align-items-center p-3 topHeader'>
+                        <p className="h2 text-center">Contacts</p>
                         <Link className='text-left btn-info headerButton' to='/add-contact'>Add New Contact</Link>
                   </div>
                   {!isLoading ? (response && !response.error && response.result && response.result.length > 0 ?
