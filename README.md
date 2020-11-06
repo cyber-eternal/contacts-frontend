@@ -82,7 +82,7 @@ Also the new field should be added to the database and Sequelize model.
             data: {
         "label": "Example", "name": "example", "type": "text", "required": false, "errorMessage": "Not valid"
   }
-  
+```  
 ## Vision
       Here is the points that are not required by test task but can make application better
             1. global Loader component to wrap children and provide loading state
