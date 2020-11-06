@@ -18,12 +18,16 @@ redux is implement just for a showcase
 Front End [https://github.com/cyber-eternal/contacts-frontend](https://github.com/cyber-eternal/contacts-frontend)
 Back End [https://github.com/cyber-eternal/contacts-api](https://github.com/cyber-eternal/contacts-api)
 
+## API Documentation
+
+[http://52.91.18.50:3000/api-doc](http://52.91.18.50:3000/api-doc)
+
 ## Form configuration Scheme
 
 as test tesk is realised with full stack approach
 Form Scheme is stored in Database, and could ba replaced by specific endpoint described in Routes section
 current scheme >>
-to 
+to
 ```json
 {
     "fields": [
@@ -37,6 +41,8 @@ to
     ]
 }
 ```
+
+Also the new field should be added to the database and Sequelize model.
 
       Current Form Setup
             1. Form fields
