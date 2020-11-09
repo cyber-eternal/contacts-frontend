@@ -28,8 +28,14 @@ body{
 
 .headerButton{
   color: whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.add-new{
   padding: 5px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .topHeader{

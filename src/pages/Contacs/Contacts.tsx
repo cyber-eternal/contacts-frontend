@@ -48,8 +48,8 @@ const Contacts = () => {
                                     </div>
                               )} </div> :
                         <div className="empty-contacts text-center">
-                              <p className="h2">No Contacts created yet</p>
-                              <Link to='/add-contact'>Create one</Link>
+                              <p className="h2">No Contacts</p>
+                              <Link to='/add-contact' className='btn-success add-new'>Add New Contact</Link>
                         </div>) : <div className='text-center'><Loader /></div>
                   }
             </>
